@@ -65,4 +65,10 @@ outer:
 		fmt.Println("Passwd accepted")
 		break
 	}
+
+	for x, y := 0, 1; x <= 10 && y <= 12; x, y = x+1, y+2 {
+		fmt.Printf("%d + %d = %d\n", x, y, x+y)
+
+	}
+
 }
