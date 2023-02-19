@@ -18,8 +18,8 @@ func main() {
 		z = append(z, x)
 		up = append(up, y)
 	}
-	fmt.Println(z)
-	fmt.Println(up)
+	//	fmt.Println(z)
+	//	fmt.Println(up)
 
 	for k := range [100000]int{} {
 		k++
